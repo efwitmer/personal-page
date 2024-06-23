@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.6;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #333;
+}
+
+header nav {
+  margin-top: 1rem;
+}
+
+header nav a {
+  color: #e63946;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1.25rem;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #1d3557;
+}
+
+/* Section Styles */
+section {
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+section p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Footer Styles */
+footer {
+  padding: 1rem;
+  text-align: center;
+  background-color: #f0f0f0;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+  color: #777;
+}
+
+
+/* Blog Styles */
+.Blog {
+  text-align: left;
+}
+
+.Blog h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.Blog article {
+  margin: 1.5rem 0;
+}
+
+.Blog article h3 {
+  font-size: 1.5rem;
+  color: #e63946;
+}
+
+.Blog article p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Blog Post Styles */
+.BlogPost {
+  text-align: left;
+  margin: 2rem 0;
+}
+
+.BlogPost h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.BlogPost p {
+  font-size: 1.1rem;
+  color: #555;
+}
